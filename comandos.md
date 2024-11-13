@@ -34,3 +34,38 @@ Crear un fichero index.html con el siguiente contenido:
     nano index.html
 
 
+
+### Paso 4
+
+Realizar un commit con el mensaje “Primera página html”.
+
+
+    git status
+
+    git add comandos.md
+
+    git add index.html
+
+    git commit -m "Primera página html"
+
+
+### Paso 5
+
+Muestra y explica el estado del repositorio.
+
+    git status
+
+Ahora el commit está hecho localmente, solo faltaría subir los cambios a github con un push si quisieramos.
+
+
+### Paso 6
+
+Cambiar la página web para que muestre en un listado 3 ciudades que te gustaría visitar:
+
+
+Lo podemos hacer usando:
+
+    nano index.html
+
+O desde el Visual Studio.
+
