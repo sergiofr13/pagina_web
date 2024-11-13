@@ -69,3 +69,61 @@ Lo podemos hacer usando:
 
 O desde el Visual Studio.
 
+
+### Paso 7
+
+Hacer un commit de los cambios, con el mensaje “Añadidas 3 ciudades que visitar”.
+
+
+    git status
+
+    git add comandos.html
+    git add index.html
+
+    git commit -m "Añadidas 3 ciudades que visitar"
+
+
+### Paso 8
+
+Muestra el historial de commits del repositorio.
+
+    git log
+
+
+### Paso 9
+
+Crea una carpeta por cada ciudad que hayas indicado en el listado anterior. Introduce dentro de cada carpeta un fichero index.html con información por cada ciudad.
+
+
+    mkdir berlin
+    cd berlin
+    touch index.html
+
+Asi con las 3 ciudades.
+
+La informacion la introducimos desde Visual Studio.
+
+
+### Paso 10
+
+Hacer un commit de los cambios, con el mensaje “Añadida información sobre las ciudades a visitar”.
+
+    git status
+
+    git add paris
+    git add oslo
+    git add berlin
+
+    git commit -m "Añadida informacion sobre las ciudades a visitar"
+
+### Paso 11
+
+Volver a mostrar el historial de cambios.
+
+
+    git log
+
+
+
+
+
